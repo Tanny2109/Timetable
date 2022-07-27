@@ -8,9 +8,9 @@ import 'rsuite-table/dist/css/rsuite-table.css';
 const data = [
     {
         time: '09:00-10:00',
-        mon: '645: IPR and Ethics',
-        tue: '645: IPR and Ethics',
-        wed: '645: IPR and Ethics',
+        mon: '645: IPR and Ethics [5206]',
+        tue: '645: IPR and Ethics [5206]',
+        wed: '645: IPR and Ethics [5206]',
         thurs: '-',
         fri: '-',
         rowspan: 1
@@ -30,16 +30,16 @@ const data = [
         tue: '-',
         wed: '-',
         thurs: '-',
-        fri: 'CS590: Deep Learning',
+        fri: 'CS590: Deep Learning [L1]',
         rowspan: 1
     },
     {
         time: '12:00-01:00',
-        mon: 'CS590: Deep Learning',
-        tue: 'CS590: Deep Learning',
-        wed: 'LUNCH',
-        thurs: '',
-        fri: ''
+        mon: 'CS590: Deep Learning [L1]',
+        tue: 'CS590: Deep Learning [L1]',
+        wed: 'HS236: Sociology [1G2]',
+        thurs: 'HS236: Sociology [1G2]',
+        fri: 'HS236: Sociology [1G2]'
     },
     {
         time: '01:00-02:00',
@@ -53,9 +53,9 @@ const data = [
         time: '02:00-03:00',
         mon: '-',
         tue: '-',
-        wed: '623: Research Methodology',
-        thurs: '623: Research Methodology',
-        fri: '623: Research Methodology',
+        wed: '623: Research Methodology [5206]',
+        thurs: '623: Research Methodology [5206]',
+        fri: '623: Research Methodology [5206]',
         rowspan: 1
     },
     {
@@ -78,8 +78,8 @@ const data = [
     },
     {
         time: '05:00-06:00',
-        mon: '637: Genome Editing',
-        tue: '637: Genome Editing',
+        mon: '637: Genome Editing [4006]',
+        tue: '637: Genome Editing [4006]',
         wed: '-',
         thurs: '-',
         fri: '-',
