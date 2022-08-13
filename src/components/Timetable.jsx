@@ -64,13 +64,13 @@ const data = [
         tue: '-',
         wed: '-',
         thurs: '-',
-        fri: 'DA621: Deep Learning with CV',
+        fri: 'DA621: Deep Learning with CV [4104]',
         rowspan: 1
     },
     {
         time: '04:00-05:00',
-        mon: 'DA621: Deep Learning with CV',
-        tue: 'DA621: Deep Learning with CV',
+        mon: 'DA621: Deep Learning with CV [4104]',
+        tue: 'DA621: Deep Learning with CV [4104]',
         wed: '-',
         thurs: '-',
         fri: '-',
