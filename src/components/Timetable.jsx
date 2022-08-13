@@ -64,13 +64,13 @@ const data = [
         tue: '-',
         wed: '-',
         thurs: '-',
-        fri: '-',
+        fri: 'DA621: Deep Learning with CV',
         rowspan: 1
     },
     {
         time: '04:00-05:00',
-        mon: '-',
-        tue: '-',
+        mon: 'DA621: Deep Learning with CV',
+        tue: 'DA621: Deep Learning with CV',
         wed: '-',
         thurs: '-',
         fri: '-',
@@ -78,8 +78,8 @@ const data = [
     },
     {
         time: '05:00-06:00',
-        mon: '637: Genome Editing [4006]',
-        tue: '637: Genome Editing [4006]',
+        mon: '-',
+        tue: '-',
         wed: '-',
         thurs: '-',
         fri: '-',
