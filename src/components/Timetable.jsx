@@ -7,84 +7,29 @@ import 'rsuite-table/dist/css/rsuite-table.css';
 
 const data = [
     {
-        time: '09:00-10:00',
-        mon: '645: IPR and Ethics [5206]',
-        tue: '645: IPR and Ethics [5206]',
-        wed: '645: IPR and Ethics [5206]',
-        thurs: '-',
-        fri: '-',
-        rowspan: 1
-    },
-    {
-        time: '10:00-11:00',
+        time: '9:30-10:45',
         mon: '-',
         tue: '-',
         wed: '-',
-        thurs: '-',
-        fri: '-',
+        thurs: 'CS 7644: ML for Robotics [Lab]',
         rowspan: 1
     },
     {
-        time: '11:00-12:00',
+        time: '11:00-12:15',
+        mon: 'CS 8803: Conversational AI [Orange]',
+        tue: 'CS 6476: Computer Vision [Yellow]',
+        wed: 'CS 8803: Conversational AI [Orange]',
+        thurs:  'CS 6476: Computer Vision [Yellow]',
+        rowspan: 1
+    },
+    {
+        time: '03:30-04:45',
         mon: '-',
-        tue: '-',
+        tue: 'CS 7644: ML for Robotics [Yellow]',
         wed: '-',
         thurs: '-',
-        fri: 'CS590: Deep Learning [L1]',
         rowspan: 1
     },
-    {
-        time: '12:00-01:00',
-        mon: 'CS590: Deep Learning [L1]',
-        tue: 'CS590: Deep Learning [L1]',
-        wed: 'HS236: Sociology [1G2]',
-        thurs: 'HS236: Sociology [1G2]',
-        fri: 'HS236: Sociology [1G2]'
-    },
-    {
-        time: '01:00-02:00',
-        mon: '',
-        tue: '',
-        wed: 'LUNCH',
-        thurs: '',
-        fri: ''
-    },
-    {
-        time: '02:00-03:00',
-        mon: '-',
-        tue: '-',
-        wed: '623: Research Methodology [5206]',
-        thurs: '623: Research Methodology [5206]',
-        fri: '623: Research Methodology [5206]',
-        rowspan: 1
-    },
-    {
-        time: '03:00-04:00',
-        mon: '-',
-        tue: '-',
-        wed: '-',
-        thurs: '-',
-        fri: 'DA621: Deep Learning with CV [4104]',
-        rowspan: 1
-    },
-    {
-        time: '04:00-05:00',
-        mon: 'DA621: Deep Learning with CV [4104]',
-        tue: 'DA621: Deep Learning with CV [4104]',
-        wed: '-',
-        thurs: '-',
-        fri: '-',
-        rowspan: 1
-    },
-    {
-        time: '05:00-06:00',
-        mon: '-',
-        tue: '-',
-        wed: '-',
-        thurs: '-',
-        fri: '-',
-        rowspan: 1
-    }
 ]
 
 const Timetable = () => {
@@ -97,7 +42,7 @@ const Timetable = () => {
         style={{borderBottom: '1px solid black', borderTop: '1px solid black'}}
     >
     <Column
-        width={1782 / 6}
+        width={1782 / 5}
         align='center'
     >
     <HeaderCell>Time</HeaderCell>
@@ -105,7 +50,7 @@ const Timetable = () => {
     </Column>
           
     <Column
-    width={1782 / 6}
+    width={1782 / 5}
     align='center'
     rowSpan={rowData => {
         return rowData.rowspan;
@@ -116,7 +61,7 @@ const Timetable = () => {
     </Column>
           
     <Column
-    width={1782 / 6}
+    width={1782 / 5}
     align='center'
     rowSpan={rowData => {
         return rowData.rowspan;
@@ -127,7 +72,7 @@ const Timetable = () => {
     </Column>
 
     <Column
-        width={1782 / 6}
+        width={1782 / 5}
         align='center'
         rowSpan={rowData => {
         return rowData.rowspan;
@@ -138,7 +83,7 @@ const Timetable = () => {
     </Column>
 
     <Column
-        width={1782 / 6}
+        width={1782 / 5}
         align='center'
         rowSpan={rowData => {
         return rowData.rowspan;
@@ -146,17 +91,6 @@ const Timetable = () => {
     >
     <HeaderCell>Thursday</HeaderCell>
     <Cell dataKey="thurs" style={{border: '1px solid black'}}/>
-    </Column>
-
-    <Column
-        width={1782 / 6}
-        align='center'
-        rowSpan={rowData => {
-        return rowData.rowspan;
-    }}
-    >
-    <HeaderCell>Friday</HeaderCell>
-    <Cell dataKey="fri" style={{border: '1px solid black'}}/>
     </Column>
     </Table>
   );
