@@ -6,7 +6,7 @@ const Header = () => {
         <>
             <div className="header-container" style={{height:'100px', width: '100%', backgroundColor: 'lightGreen', borderBottom:'2px solid red'} } >
                 <div style={{fontWeight:'bold', fontStyle:'italic', fontSize:'20px', textAlign:'center', paddingTop: '40px'}}>
-                    Georgia Tech-Europe Fall 2023
+                    Georgia Tech-Europe Spring 2024
                 </div>
             </div>
         </>
