@@ -9,25 +9,33 @@ const data = [
     {
         time: '9:30-10:45',
         mon: '-',
-        tue: '-',
-        wed: '-',
-        thurs: 'CS 7644: ML for Robotics [Lab]',
+        tue: 'CS 8813: Intro to Res [Lab]',
+        wed: 'CS 8813: Intro to Res [Lab]',
+        thurs: '-',
         rowspan: 1
     },
     {
         time: '11:00-12:15',
-        mon: 'CS 8803: Conversational AI [Orange]',
-        tue: 'CS 6476: Computer Vision [Yellow]',
-        wed: 'CS 8803: Conversational AI [Orange]',
-        thurs:  'CS 6476: Computer Vision [Yellow]',
+        mon: '-',
+        tue: '-',
+        wed: 'CS 8813: Intro to Res [Lab]',
+        thurs:  '-',
+        rowspan: 1
+    },
+    {
+        time: '02:00-03:15',
+        mon: 'CS 8803: Global Entrepreneursip [Online]',
+        tue: 'Graduate Seminar',
+        wed: 'CS 8803: Global Entrepreneursip [Online]',
+        thurs: 'CS 8813: Intro to Res',
         rowspan: 1
     },
     {
         time: '03:30-04:45',
-        mon: '-',
-        tue: 'CS 7644: ML for Robotics [Yellow]',
+        mon: 'CS 8813: Intro to Res [Lab]',
+        tue: 'CS 8813: Intro to Res [Pink]',
         wed: '-',
-        thurs: '-',
+        thurs: 'CS 8813: Intro to Res [Lab Lecture]',
         rowspan: 1
     },
 ]
