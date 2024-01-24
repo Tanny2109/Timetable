@@ -9,8 +9,8 @@ const data = [
     {
         time: '9:30-10:45',
         mon: '-',
-        tue: 'CS 8813: Intro to Res [Lab]',
-        wed: 'CS 8813: Intro to Res [Lab]',
+        tue: '-',
+        wed: '-',
         thurs: '-',
         rowspan: 1
     },
@@ -32,10 +32,10 @@ const data = [
     },
     {
         time: '03:30-04:45',
-        mon: 'CS 8813: Intro to Res [Lab]',
-        tue: 'CS 8813: Intro to Res [Pink]',
+        mon: '-',
+        tue: 'CS 8813: Intro to Res [Yellow]',
         wed: '-',
-        thurs: 'CS 8813: Intro to Res [Lab Lecture]',
+        thurs: 'CS 8813: Intro to Res [Lab]',
         rowspan: 1
     },
 ]
