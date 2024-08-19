@@ -9,33 +9,33 @@ const data = [
     {
         time: '9:30-10:45',
         mon: '-',
-        tue: '-',
+        tue: 'CS 6250: Computer Networks [Scheller College of Business 300]',
         wed: '-',
-        thurs: '-',
+        thurs: 'CS 6250: Computer Networks [Scheller College of Business 300]',
         rowspan: 1
     },
     {
         time: '11:00-12:15',
         mon: '-',
         tue: '-',
-        wed: 'CS 8813: Intro to Res [Lab]',
+        wed: '-',
         thurs:  '-',
         rowspan: 1
     },
     {
         time: '02:00-03:15',
-        mon: 'CS 8803: Global Entrepreneursip [Online]',
-        tue: 'Graduate Seminar',
-        wed: 'CS 8803: Global Entrepreneursip [Online]',
-        thurs: 'CS 8813: Intro to Res',
+        mon: '-',
+        tue: '-',
+        wed: '-',
+        thurs: '-',
         rowspan: 1
     },
     {
-        time: '03:30-04:45',
-        mon: '-',
-        tue: 'CS 8813: Intro to Res [Yellow]',
-        wed: '-',
-        thurs: 'CS 8813: Intro to Res [Lab]',
+        time: '05:00-06:15',
+        mon: 'CS 6400A: DB Concepts & Design [Instructional Center 211]',
+        tue: 'CSE8803: ML for neural data [Mason 3133]',
+        wed: 'CS 6400A: DB Concepts & Design [Instructional Center 211]',
+        thurs: 'CSE8803: ML for neural data [Mason 3133]',
         rowspan: 1
     },
 ]
