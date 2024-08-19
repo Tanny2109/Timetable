@@ -9,9 +9,9 @@ const data = [
     {
         time: '9:30-10:45',
         mon: '-',
-        tue: 'CS 6250: Computer Networks [Scheller College of Business 300]',
+        tue: 'CS 6250: Computer Networks\n[Scheller College of Business 300]',
         wed: '-',
-        thurs: 'CS 6250: Computer Networks [Scheller College of Business 300]',
+        thurs: 'CS 6250: Computer Networks\n[Scheller College of Business 300]',
         rowspan: 1
     },
     {
